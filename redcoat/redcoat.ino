@@ -28,7 +28,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  /*while (digitalRead(touchSensor_1) == LOW)
+  while (digitalRead(touchSensor_1) == LOW)
   {
     flag_touchSensor1 = !flag_touchSensor1;
     delay(1000);
@@ -43,7 +43,7 @@ void loop() {
     Serial.println("Evian");
     myservo_1.write(90);
   }
-*/
+
 
 
   while (digitalRead(touchSensor_2) == LOW)
@@ -64,6 +64,7 @@ void loop() {
 
 
    digitalWrite(LED_RED, LOW); 
+   
 /*while(digitalRead(touchSensor_3)==LOW){
   digitalWrite(LED_RED, HIGH);
   delay(23333);
